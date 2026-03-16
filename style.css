@@ -1,0 +1,370 @@
+.fashion{
+   font-size: 30px;
+   box-sizing: border-box;
+   padding: 10px;
+
+}
+
+
+/* Reset */
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial;
+    }
+    
+    /* Navbar */
+    nav{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    background:#111;
+    color:white;
+    padding:15px 50px;
+    }
+    
+    nav ul{
+    display:flex;
+    list-style:none;
+    }
+    
+    nav ul li{
+    margin:0 15px;
+    }
+    
+    nav ul li a{
+    text-decoration:none;
+    color:white;
+    font-size:18px;
+    }
+    
+    .logo{
+    font-size:24px;
+    font-weight:bold;
+    color:#ff66b2;
+    }
+    
+    /* Hero Section */
+    
+    .hero{
+    height:400px;
+    background:linear-gradient(pink,white);
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    }
+    
+    .hero h1{
+    font-size:40px;
+    margin-bottom:10px;
+    }
+    
+    .hero p{
+    font-size:20px;
+    margin-bottom:20px;
+    }
+    
+    .hero button{
+    padding:12px 25px;
+    background:palegreen;
+    border:none;
+    color:black;
+    font-size:16px;
+    cursor:pointer;
+    }
+
+    
+    /* hero1 */
+    .hero1{
+        height:400px;
+        background:linear-gradient(pink,rgba(0, 0, 255, 0.151));
+        display:flex;
+        flex-direction:column;
+        justify-content:center;
+        align-items:center;
+        text-align:center;
+        }
+
+        .hero1 h1{
+        font-size: 50px;
+        margin-bottom: 20px;
+    } 
+
+    .hero1 p{
+        font-size:20px;
+        margin-bottom:20px;
+        }
+
+    .hero1 button{
+        padding:15px 25px;
+        background:palegreen;
+        border:none;
+        color:black;
+        font-size:16px;
+        cursor:pointer;
+        
+        }
+
+        /* hero2 */
+
+        .hero2{
+            height:400px;
+            background:linear-gradient(pink,rgba(0, 0, 255, 0.226));
+            display:flex;
+            flex-direction:column;
+            justify-content:center;
+            align-items:center;
+            text-align:center;
+            }
+            
+            .hero2 h1{
+            font-size:40px;
+            margin-bottom:10px;
+            }
+            
+            .hero2 p{
+            font-size:20px;
+            margin-bottom:20px;
+            }
+            
+            .hero2 button{
+            padding:12px 25px;
+            background:palegreen;
+            border:none;
+            color:black;
+            font-size:16px;
+            cursor:pointer;
+            }
+        
+            
+
+        
+    /* Products  */
+    
+    .products{
+    padding:50px;
+    text-align:center;
+    }
+    
+    .products h2{
+    font-size:32px;
+    margin-bottom:40px;
+    color: tomato;
+    }
+    
+    .products-container{
+    display:flex;
+    justify-content:center;
+    gap:30px;
+    flex-wrap:wrap;
+    }
+    
+    /* .card{
+    border:1px solid #ddd;
+    padding:20px;
+    width:220px;
+    background:white;
+    } */
+    
+    .card img{
+    width:200px;
+    }
+    
+    .card h3{
+    margin-top:10px;
+    }
+    
+    .card p{
+    margin:10px 0;
+    }
+    
+    .card button{
+    background:#ff3399;
+    color:blue;
+    border:none;
+    padding:10px 15px;
+    cursor:pointer;
+    }
+
+    .card img{
+        width: 100%;
+        height: auto;
+        transition: all .40s;
+    }
+
+    .card img:hover{
+        transform: scale(0.9);
+    }
+
+    .card1-img{
+        margin-top: 10px;
+        width: 200px;
+       height: 315px;
+       box-shadow: 0 5px 15px purple;
+      border-radius: 10px;                   
+       }  
+
+      
+
+   
+    /* footwear products */
+
+    .footwaer-products{
+        padding:50px;
+        text-align:center;
+        }
+        
+        .footwaer-products h2{
+        font-size:32px;
+        margin-bottom:40px;
+        color: lightcoral;
+        }
+        
+        .footwaer-container{
+        display:flex;
+        justify-content:center;
+        gap:30px;
+        flex-wrap:wrap;
+        }
+
+   .card1 p{
+    margin:10px 0;
+    }
+
+    
+     .card1-img{
+        margin-top: 10px;
+        width: 200px;
+       height: 315px;
+       box-shadow: 0 5px 15px purple;
+      border-radius: 10px;                   
+       }    
+
+       .card1 img{
+        width: 100%;
+        height:auto ;
+        transition: all .40s;
+    }
+
+    .card1 img:hover{
+        transform: scale(0.9);
+    }
+
+    
+    
+      .card1 button{
+        background:palevioletred;
+        color:blue;
+        border:none;
+        padding:10px 15px;
+        cursor:pointer;
+        } 
+
+        .products{
+            padding:50px;
+            text-align:center;
+         }
+
+       
+    
+    /* traditional products */
+
+    .Traditional-product h2{
+        font-size:32px;
+        margin-bottom:40px;
+        color: lightcoral;
+        text-align: center;
+        }
+        
+        .Traditional-container{
+        display:flex;
+        justify-content:center;
+        gap:30px;
+        flex-wrap:wrap;
+        }
+
+        .card img{
+            margin-top: 10px;
+            width: 200px;
+           height: 315px;
+           box-shadow: 0 5px 15px black;
+          border-radius: 10px;                   
+           } 
+           
+           .hero2 button{
+            align-items: center;
+           }
+
+           .Traditional-product{
+            margin-bottom: 40px;
+           }   
+       
+   
+    
+     
+    /* About Section */
+    
+    .about{
+    background:rgba(42, 165, 42, 0.151);
+    padding:50px;
+    text-align:center;
+    }
+    
+    .about h2{
+    font-size:30px;
+    margin-bottom:20px;
+    color: goldenrod;
+    }
+
+     /* footer*/
+
+    .footer {
+        background: black;
+        color: white;
+        padding: 40px 0;
+      }
+      
+      .footer-container {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        width: 90%;
+        margin: auto;
+      }
+      
+      .footer-box {
+        width: 250px;
+        margin: 10px;
+      }
+      
+      .footer-box h2,
+      .footer-box h3 {
+        margin-bottom: 15px;
+      }
+      
+      .footer-box ul {
+        list-style: none;
+      }
+      
+      .footer-box ul li {
+        margin-bottom: 10px;
+      }
+      
+      .footer-box ul li a {
+        text-decoration: none;
+        color: #ddd;
+      }
+      
+      .footer-box ul li a:hover {
+        color: #ff4d6d;
+      }
+      
+      .footer-bottom {
+        text-align: center;
+        padding-top: 20px;
+        border-top: 1px solid #444;
+        margin-top: 20px;
+      }      
