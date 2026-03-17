@@ -1,0 +1,306 @@
+
+
+section{
+    padding: 5% 10%;
+}
+
+.main-home{
+    width: 100%;
+    height: 100vh;
+    background-image: url(images/log\ .jpg); 
+    filter: contrast(50%);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    grid-template-columns: repeat(1, 1fr);
+    align-items: center;
+}
+
+.main-text h5{
+    color: palegreen;
+    font-size: 16px;
+    text-transform: capitalize;
+    font-weight: 500;
+}
+
+.main-text h1{
+    color: black;
+    font-size: 60px;
+    font-style: italic;
+    text-transform: capitalize;
+    line-height: 1.1;
+    font-weight: 600;
+    margin: 6px 0 10px;
+}
+
+.main-text p{
+    color: palegreen;
+    font-size: 20px;
+   /* font-style: italic; */
+    margin-bottom: 20px;
+}
+
+
+/* trending-section-css */
+
+.center-text h2{
+    color: #111;
+    font-size: 28px;
+    text-transform: capitalize;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.center-text span{
+    color: palevioletred;
+}
+
+.products{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, auto));
+    gap: 3rem; 
+}
+
+.row{
+    position: relative;
+    transition: all .40s; 
+}
+
+.row img{
+    width: 100%;
+    height: auto;
+    transition: all .40s; 
+}
+
+.row img:hover{
+    transform: scale(0.9);
+} 
+
+.product-text h6{
+    position: absolute;
+    top: 13px;
+    left: 13px;
+    color: #6E026F;
+    font-size: 12px;
+    font-weight: 500;
+    text-transform: uppercase;
+    background-color: #FFF8DE; 
+    padding: 3px 10px;
+    border-radius: 2px;
+}
+
+.heart-icon{
+    position: absolute;
+    right: 0;
+    font-size: 20px;
+}
+
+.heart-icon:hover{
+    color: brown;
+}
+
+.ratting i{
+    color: #ff8c00;
+    font-size: 18px;
+}
+.price h4{
+    color: #111;
+    font-size: 16px;
+    text-transform: capitalize;
+    font-weight: 400;
+}
+
+.price p{
+    background-color: pink ;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.client-reviews{
+    /* background-color: #FFF8DE; */
+}
+
+.reviwes{
+    text-align: center;
+}
+
+.reviwes h3{
+    color: #111;
+    font-size: 25px;
+    text-transform: capitalize;
+    text-align: center;
+    font-weight: 700;
+}
+
+.reviwes img{
+    width: 100px;
+    height: auto;
+    border-radius: 30px;
+    margin: 20px 0;
+}
+
+.reviwes p{
+    color: brown;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+    margin-bottom: 10px;
+}
+
+.reviwes h2{
+    font-size: 22px;
+    color: #000;
+    font-weight: 400;
+    text-transform: capitalize;
+    margin-bottom: 2px;
+}
+
+/* update-section-css */
+.up-center-text{
+    text-align: center;
+    color: firebrick;
+    font-size: 25px;
+    text-transform: capitalize;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.cart img{
+    width: 300px;
+    height: auto;
+    border-radius: 5px;
+}
+
+.update-cart{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, auto));
+    gap: 1rem;
+}
+
+.cart h5{
+    color: #863A6F;
+    font-size: 14px;
+    text-transform: capitalize;
+    font-weight: 500;
+}
+
+.cart h4{
+    color: navy;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.cart p{
+    color: #6E026F;
+    font-size: 15px;
+    max-width: 380px;
+    line-height: 25px;
+    margin-bottom: 12px;
+}
+
+.cart h6{
+    color: brown;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+/* contact-section */
+.contact{
+    background-color: #fff;
+}
+
+.contact-info{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(160px, auto));
+    gap: 3rem;
+}
+
+.first-info img{
+    width: 140px;
+    height: auto;
+}
+
+.contact-info h4{
+    color: orangered;
+    font-size: 14px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.contact-info p{
+    color: #863A6F;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 1.5;
+    margin-bottom: 10px;
+    cursor: pointer;
+    transition: all .42s;
+}
+
+.contact-info p:hover{
+    color: palegreen;
+}
+
+.social-icon i{
+    color: plum;
+    margin-right: 10px;
+    font-style: 20px;
+    transition: all .42s;
+}
+
+.social-icon i:hover{
+    transform: scale(1.3);
+}
+
+.end-text{
+    background-color: pink;
+    text-align: center;
+    padding: 20px;
+}
+
+.end-text p{
+    color: #000;
+    text-transform: capitalize;
+}
+
+/* Responsive-css */
+@media(max-width:890px){
+    header{
+        padding: 20px 3%;
+        transition:  .4s;
+    }
+}
+
+@media(max-width:630px){
+    .main-text h1{
+        font-size: 50px;
+        transition:  .4s;
+    }
+
+    .main-text p{
+        font-size: 18px;
+        transition:  .4s;
+    }
+
+    .main-btn{
+        padding: 10px 20px;
+        transition:  .4s;
+    }
+}
+
+@media(max-width:750px){
+    .navmenu{
+        position: absolute;
+        top: 100%;
+        right: 0;
+        width: 300px;
+        height: 130vh;
+        background: #edfff1;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 120px 30px;
+        transition: all .42s;
+    }
+}
